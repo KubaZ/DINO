@@ -1,0 +1,145 @@
+//////////////////////////////////////////////
+//modu³ tworzenie obiektów kombinatorycznych//
+//////////////////////////////////////////////
+U¯YTKOWNIK
+liczby Generuj_liczby_dla_zbioru()
+Utwórz_zbiór(liczby)
+liczby Generuj_liczby_dla_multizbioru()
+Utwórz_multizbiór(liczby)
+Stwórz_obiekt_i_okreœl_jego_rodzaj()
+Przypisz_obiekt_do_zbioru(string nazwa_obiektu)
+Przypisz_obiekt_do_multizbioru(string nazwa_obiektu)
+Przypisz_parametr_do_obiektu()
+OBIEKT
+Dodaj_obiekt_do_systemu(this)
+Przypisz_zbiór_do_obiektu(Zbiór zbiór)
+Przypisz_multizbiór_do_obiektu(Multizbiór multizbiór)
+Przeka¿_obiekt_do_systemu(this)
+PARAMETR
+Generuj_wartosc_parametru()
+Przypisz_parametr_do_obiektu (string nazwa_obiektu)
+ZBIÓR
+Przeka¿_zbiór_do_systemu(this)
+MULTIZBIÓR
+Przeka¿_multizbiór_do_systemu(this)
+SYSTEM
+Zweryfikuj_dane(Zbiór zbiór)
+Dodaj_obiekt_do_systemu(Zbiór zbiór)
+Zweryfikuj_dane(Multizbiór multizbiór)
+Dodaj_obiekt_do_systemu(Multizbiór multizbiór)
+Zwróæ_wynik_do_u¿ytkownika(string text)
+Zweryfikuj_dane(Obiekt obiekt)
+Aktualizuj_obiekty_systemu(Obiekt obiekt)
+///////////////////////////////////////
+///////////////////////////////////////
+//modu³ obs³uga istniej¹cych obiektów//
+///////////////////////////////////////
+U¯YTKOWNIK
+Oblicz_wartoœæ_obiektu(string nazwa_obiektu)
+Wygeneruj wynikowe podzbiory obiektu ( string nazwa obiektu )
+Poka¿_wszystkie_obiekty_systemu ()
+SYSTEM
+Zweryfikuj_dane_do_wyliczenia_wartoœci(Obiekt obiekt)
+Oblicz_wartoœæ_obiektu(Obiekt obiekt)
+Zbieranie_informacji_o_obiektach()
+Zwróæ_wynik_do_u¿ytkownika ( wszystkie_obiekty_systemu )
+Zwróæ_wynik_do_u¿ytkownika(Wartoœæ obiektu obiekt)
+Zweryfikuj_dane_do_wygenerowania_wyników ( Obiekt obiekt )
+Wska¿_wartoœæ_obiektu_do_generowania_wyników ( Obiekt obiekt )
+Aktualizuj_obiekty_systemu ( Wartoœæ obiektu wartoœæ )
+Zwróæ_wynik_do_u¿ytkownika ( wszystkie_podzbiory_obiektu )
+WARTOŒÆ OBIEKTU
+Dodaj_wartoœæ_do_systemu(this)
+Generuj_wyniki_obiektu ( Obiekt obiekt )
+///////////////////////////////////////////
+///////////////////////////////////////////
+//modu³ modyfikacja istniej¹cych obiektów//
+///////////////////////////////////////////
+U¯YTKOWNIK
+Zmieñ_zbiór_obiektu ( Obiekt obiekt )
+Zmieñ_multizbiór_obiektu ( Obiekt obiekt )
+Zmieñ_parametr_obiektu ( string nazwa_obiektu )
+OBIEKT
+Wska¿_nowy_zbiór_dla_obiektu ( Zbiór zbiór )
+Zamieñ_zbiór ( Zbiór zbiór )
+Przeka¿_obiekt_do_systemu ( Obiekt obiekt )
+Wska¿_nowy_multizbiór_dla_obiektu ( Multizbiór  multizbiór )
+Zamieñ_multizbiór ( Multizbiór )
+Podaj_nowy_parametr_dla_obiektu ( Parametr parametr )
+Zamieñ_parametr ( Parametr )
+SYSTEM
+Zweryfikuj_dane ( Obiekt obiekt )
+Aktualizuj_obiekty_systemu ( Obiekt obiekt )
+Zwróæ_wynik_do_u¿ytkownika ( string komunikat )
+//////////////////////////////////////////////
+//modu³ porównywanie wyników//
+//////////////////////////////////////////////
+U¯YTKOWNIK
+Zapisz_wynik_przed_modyfikacj¹_obiektu ( Obiekt obiekt )
+Zapisz_wynik_po_modyfikacji_obiektu ( Obiekt obiekt)
+Porównaj_dwa_wyniki_obiektów ( obiekt1, obiekt2 )
+Porównaj_dwa_wyniki ( wynik1, wynik2 )
+Porównaj_wyniki_obiektów ()
+Porównaj_wyniki ( Wynik wynik[] )
+Oblicz_œredni¹_wszystkich_wyników_obiektu ( Obiekt obiekt )
+Przedstaw_wyniki_obiektu ( obiekt )
+OBIEKT
+Znajd¿_watroœæ_obiektu ( Obiekt )
+Przeka¿_obiekt_do_porównania ( obiekt )
+WARTOŒÆ OBIEKTU
+Przeka¿_wartoœæ_obiektu_w_celu_zapisania ( Wartoœæ obiektu )
+Poka¿_wszystkie_obliczone_wyniki ()
+WYNIK //repreztuje pojedynczy wynik obiektu
+SYSTEM
+Weryfikacja_wszystkich_modyfikacji_obiektu ( Obiekt )
+Trwale_zapisz_dotychczasowe_wyniki ( Obiekt )
+Zwróæ_wynik_do_u¿ytkownika ( string komunikat )
+Porownaj_wyniki ( wynik1, wynik2 )
+Porownaj_wyniki ( wynik[] )
+GromadŸ_wszystkie_wyniki_obiektu ( obiekt )
+Oblicz_œredni¹_wyników ( obiekt )
+///////////////////////////////////////////////
+///////////////////////////////////////////////klas - 9
+//modu³ usuwanie obiektów//
+//////////////////////////////////////////////
+U¯YTKOWNIK
+Usuñ_wszystkie_wyniki_obiektu ( Obiekt obiekt )
+Usuñ_obiekt_oraz_wszystkie_wyniki_obiektu ( Obiekt obiekt )
+Usuñ_zbiór_oraz_wszystkie_obiekty_zdefiniowane_na_tym_zbiorze ( Zbiór zbiór )
+Usuñ_mutlizbiór_oraz_wszystkie_obiekty_zdefiniowane_na_tym_multizbiorze ( Multizbiór multizbiór )
+SYSTEM
+Usuñ_wyniki_obiektu ( Obiekt obiekt )
+Usuñ_obiekt_i_wyniki_obiektu ( Obiekt obiekt )
+Usuñ_obiekty_zdefiniowane_na_zbiorze ( Zbiór zbiór )
+Usuñ_zbiór ( Zbiór zbiór )
+Usuñ_obiekty_zdefiniowane_na_multizbiorze ( Multizbiór multizbiór )
+Usuñ_multizbiór ( Multizbiór multizbiór )
+///////////////////////////////////////////////////
+///////////////////////////////////////////////////
+//Administracja//
+////////////////////////////////////////////////////
+ADMINISTRATOR
+Wylistuj_wszystkie_instancje_systemu ()
+Wypisz_informacje_o_instancji_systemu ( Instancja Systemu instancja )
+Usuñ_u¿ytkownika (U¿ytkownik u¿ytkownik)
+Dodaj_u¿ytkownika ()
+Przypisz_u¿ytkownika_do_instancji_systemu ( U¿ytkownik u¿ytkownik, Instancja Systemu instancja )
+Usuñ_Instancjê_systemu_wraz_z_u¿ytkownikami ( Instancja Systemu instancja )
+Usuñ_u¿ytkowników ()
+Stwórz_instancjê_systemu ()
+SYSTEM_G£OWNY
+Pobierz_dane_instancji ()
+Pobierz_dane_instancji ( Instancja Systemu instancja )
+Zwróæ_informacjê_o_instancjach_systemu ( Instancja Systemu instancje_systemu[] )
+Zwróæ_informacjê_o_instancji_systemu ( Instancja Systemu instancja_systemu )
+Usuñ_informacje_o_u¿ytkowniku ( U¿ytkownik u¿ytkownik )
+Stwórz_u¿ytkownika ()
+Dodaj_informacje_o_u¿ytkowniku ( U¿ytkownik u¿ytkownik )
+Usuñ_u¿ytkowników_instancji ( Instancja Systemu instancja )
+Stwórz_instancjê ()
+Usuñ_instancjê_systemu ( Instancja Systemu instancja )
+INSTANCJA SYSTEMU
+Wyœlij_dane ()
+U¯YTKOWNIK
+Przypisz_do_systemu ( Instancja Systemu instancja )
+Usuñ_u¿ytkownika ( U¿ytkownik u¿ytkownik )
